@@ -2,7 +2,7 @@ package Template::Plugin::RoundRobin;
 use strict;
 use warnings;
 use base qw(Data::RoundRobin Template::Plugin);
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 1;
 

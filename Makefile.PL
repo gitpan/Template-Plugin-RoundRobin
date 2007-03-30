@@ -7,9 +7,10 @@ license         ('perl');
 version_from    ('lib/Template/Plugin/RoundRobin.pm');
 requires        (
     Template => 0,
-    Data::RoundRobin => 0
+    'Data::RoundRobin' => 0
     );
 build_requires  ('Test::More');
 
+&auto_install;
 &WriteAll;
 
